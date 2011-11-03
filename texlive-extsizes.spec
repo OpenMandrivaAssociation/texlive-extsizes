@@ -1,3 +1,9 @@
+# revision 17263
+# category Package
+# catalog-ctan /macros/latex/contrib/extsizes
+# catalog-date 2010-02-28 19:16:53 +0100
+# catalog-license lppl
+# catalog-version 1.4a
 Name:		texlive-extsizes
 Version:	1.4a
 Release:	1
@@ -52,6 +58,7 @@ extproc which allow for documents with a base font of size 8-
 %doc %{_texmfdistdir}/doc/latex/extsizes/extsizes.pdf
 %doc %{_texmfdistdir}/doc/latex/extsizes/extsizes.tex
 %doc %{_texmfdistdir}/doc/latex/extsizes/readme.extsizes
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,3 +69,5 @@ extproc which allow for documents with a base font of size 8-
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
