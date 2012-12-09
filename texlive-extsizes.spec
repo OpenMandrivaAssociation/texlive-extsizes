@@ -59,3 +59,17 @@ extproc which allow for documents with a base font of size 8-
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.4a-2
++ Revision: 751750
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.4a-1
++ Revision: 718407
+- texlive-extsizes
+- texlive-extsizes
+- texlive-extsizes
+- texlive-extsizes
+
