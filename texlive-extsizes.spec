@@ -6,7 +6,7 @@
 # catalog-version 1.4a
 Name:		texlive-extsizes
 Version:	1.4a
-Release:	5
+Release:	6
 Summary:	Extend the standard classes' size options
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/extsizes
