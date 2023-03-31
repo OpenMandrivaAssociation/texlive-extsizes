@@ -1,6 +1,6 @@
 Name:		texlive-extsizes
 Version:	17263
-Release:	1
+Release:	2
 Summary:	Extend the standard classes' size options
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/extsizes
