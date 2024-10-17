@@ -3,7 +3,7 @@ Version:	17263
 Release:	2
 Summary:	Extend the standard classes' size options
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/extsizes
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/extsizes
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/extsizes.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/extsizes.doc.r%{version}.tar.xz
